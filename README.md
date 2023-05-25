@@ -1,1 +1,18 @@
-# bitrix-activity-helloworldactivity
+# Битрикс. Действие в БП "Привет мир!"
+
+Пример реализации простого действия "Пример мир!".
+Действие имеет 2 параметра: Объект и Комментарий.
+Записывает в журнал процесса строку "Привет, <объект>! <комментарий>" и возвращает его значение для использования в бизнес процессах.
+
+Написано в описания главы "Свои действия" при написании [Книги разработчика Битрикс24](https://github.com/gromdron/bx24devbook).
+
+## Инструкция по установке
+
+Вариант установки: Ручная установка.
+Скопировать содержимое репозитория в директорию `local/activities/custom/helloworldactivity`
+
+Вариант установки: Автоматическая установка для Bitrix Env
+
+```
+$ git clone https://github.com/gromdron/bitrix-activity-helloworldactivity.git /home/bitrix/www/local/activities/custom/helloworldactivity
+```
