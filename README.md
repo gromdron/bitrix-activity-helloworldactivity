@@ -11,8 +11,9 @@
 Вариант установки: Ручная установка.
 Скопировать содержимое репозитория в директорию `local/activities/custom/helloworldactivity`
 
-Вариант установки: Автоматическая установка для Bitrix Env
+Вариант установки: Автоматическая установка для Bitrix Env.
+Необходимо быть авторизованным под пользователем bitrix
 
-```
-$ git clone https://github.com/gromdron/bitrix-activity-helloworldactivity.git /home/bitrix/www/local/activities/custom/helloworldactivity
+```bash
+$ mkdir -p local/activities/custom/dicecondition && git clone https://github.com/gromdron/bitrix-activity-helloworldactivity.git ./local/activities/custom/helloworldactivity
 ```
